@@ -8,6 +8,10 @@ public interface Listavel {
     Object apagar (int posicao);                        //D     delete
     boolean contem (Object dado);                       //S     sort  
     void limpar();                                      //D
+
+    boolean estaCheia();
+	boolean estaVazia();
+	String imprimir();
     
     //extra
     int primeiraOcorrencia (Object dado);
