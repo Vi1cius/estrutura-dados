@@ -10,8 +10,8 @@ public interface Listavel {
     void limpar();                                      //D
 
     boolean estaCheia();
-	boolean estaVazia();
-	String imprimir();
+    boolean estaVazia();
+    String imprimir();
     
     //extra
     int primeiraOcorrencia (Object dado);
